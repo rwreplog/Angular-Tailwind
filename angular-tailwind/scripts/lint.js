@@ -23,7 +23,7 @@ function getCommand(env = 'npm', fix = false) {
     .trim()
     .split('\n');
 
-  let cmd = `ng lint czar-web `;
+  let cmd = `ng lint angular-tailwind `;
 
   let fileCount = 0;
   for (const file of files) {
